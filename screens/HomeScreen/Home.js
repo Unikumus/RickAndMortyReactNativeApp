@@ -32,7 +32,6 @@ class HomeScreen extends Component {
                   <CharecterCard key={item.key}
                                name={item.name}
                                status={item.status}
-                               price={item.status}
                                previewImage={item.image}
                                currentElement={this.props.currentElement}
                                indexElement={index}
